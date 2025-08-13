@@ -168,7 +168,7 @@ combos:
 - p: [6, 7]
   k: {t: ⌃, h: sticky}
 - p: [2, 3]
-  k: {t: ⌃, h: sticky}
+  k: {t: (, h: ⌃}
 - p: [12, 13]
   k: {t: ⌃, h: sticky}
 - p: [26, 27]

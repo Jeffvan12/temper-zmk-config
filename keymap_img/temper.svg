@@ -248,8 +248,8 @@ path {
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="164" y="26" width="28" height="26" class="combo"/>
-<text x="178" y="39" class="combo tap">⌃</text>
-<text x="178" y="50" class="combo hold">sticky</text>
+<text x="178" y="39" class="combo tap">(</text>
+<text x="178" y="50" class="combo hold">⌃</text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="164" y="82" width="28" height="26" class="combo"/>
@@ -438,8 +438,8 @@ path {
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="164" y="26" width="28" height="26" class="combo"/>
-<text x="178" y="39" class="combo tap">⌃</text>
-<text x="178" y="50" class="combo hold">sticky</text>
+<text x="178" y="39" class="combo tap">(</text>
+<text x="178" y="50" class="combo hold">⌃</text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="164" y="82" width="28" height="26" class="combo"/>
@@ -633,8 +633,8 @@ path {
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="164" y="26" width="28" height="26" class="combo"/>
-<text x="178" y="39" class="combo tap">⌃</text>
-<text x="178" y="50" class="combo hold">sticky</text>
+<text x="178" y="39" class="combo tap">(</text>
+<text x="178" y="50" class="combo hold">⌃</text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="164" y="82" width="28" height="26" class="combo"/>
@@ -826,8 +826,8 @@ path {
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="164" y="26" width="28" height="26" class="combo"/>
-<text x="178" y="39" class="combo tap">⌃</text>
-<text x="178" y="50" class="combo hold">sticky</text>
+<text x="178" y="39" class="combo tap">(</text>
+<text x="178" y="50" class="combo hold">⌃</text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="164" y="82" width="28" height="26" class="combo"/>
@@ -1031,8 +1031,8 @@ path {
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="164" y="26" width="28" height="26" class="combo"/>
-<text x="178" y="39" class="combo tap">⌃</text>
-<text x="178" y="50" class="combo hold">sticky</text>
+<text x="178" y="39" class="combo tap">(</text>
+<text x="178" y="50" class="combo hold">⌃</text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="164" y="82" width="28" height="26" class="combo"/>
