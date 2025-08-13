@@ -10,7 +10,7 @@ layers:
     - L
     - U
     - Y
-    - {t: '''', s: '"'}
+    - {t: ;, s: ':'}
   - [A, R, S, T, G, M, N, E, I, O]
   - - {t: Z, h: LSHIFT}
     - X
@@ -175,3 +175,5 @@ combos:
   k: ENTER
 - p: [22, 23]
   k: ↹
+- p: [1, 2]
+  k: CAPSLOCK
