@@ -91,7 +91,7 @@ layers:
     - {type: held}
     - {t: ▽, type: trans}
     - '0'
-    - fun
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   nav:
   - ['7', '5', '3', '1', '9', '8', '0', '2', '4', '6']
@@ -116,7 +116,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
-    - fun
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
