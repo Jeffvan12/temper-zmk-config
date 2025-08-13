@@ -20,10 +20,35 @@
 / {
     combos {
         compatible = "zmk,combos";
-        combo_esc {
+        combo_quote {
             timeout-ms = <20>;
             key-positions = <5 6>;
             bindings = <&kp SINGLE_QUOTE>;
+        };
+        combo_esc {
+            timeout-ms = <20>;
+            key-positions = <15 16>;
+            bindings = <&kp ESCAPE>;
+        };
+        combo_right_side_meta {
+            timeout-ms = <20>;
+            key-positions = <16 17>;
+            bindings = <&sk LMETA>;
+        };
+        combo_right_side_ctrl {
+            timeout-ms = <20>;
+            key-positions = <6 7>;
+            bindings = <&sk LCTRL>;
+        };
+        combo_left_side_ctrl {
+            timeout-ms = <20>;
+            key-positions = <2 3>;
+            bindings = <&sk LCTRL>;
+        };
+        combo_left_side_shift {
+            timeout-ms = <20>;
+            key-positions = <12 13>;
+            bindings = <&sk LCTRL>;
         };
     };
     conditional_layers {
