@@ -227,6 +227,11 @@ path {
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">BSPC</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="536" y="41" width="28" height="26" class="combo"/>
+<text x="550" y="54" class="combo tap">&#x27;</text>
+<text x="550" y="43" class="combo shifted">&quot;</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 354)" class="layer-game">
@@ -375,6 +380,11 @@ path {
 <g transform="translate(599, 228)" class="key trans keypos-35">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="536" y="41" width="28" height="26" class="combo"/>
+<text x="550" y="54" class="combo tap">&#x27;</text>
+<text x="550" y="43" class="combo shifted">&quot;</text>
 </g>
 </g>
 </g>
@@ -530,6 +540,11 @@ path {
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="536" y="41" width="28" height="26" class="combo"/>
+<text x="550" y="54" class="combo tap">&#x27;</text>
+<text x="550" y="43" class="combo shifted">&quot;</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1063)" class="layer-nav">
@@ -681,6 +696,11 @@ path {
 <g transform="translate(599, 228)" class="key trans keypos-35">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="536" y="41" width="28" height="26" class="combo"/>
+<text x="550" y="54" class="combo tap">&#x27;</text>
+<text x="550" y="43" class="combo shifted">&quot;</text>
 </g>
 </g>
 </g>
@@ -845,6 +865,11 @@ path {
 <g transform="translate(599, 228)" class="key trans keypos-35">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="536" y="41" width="28" height="26" class="combo"/>
+<text x="550" y="54" class="combo tap">&#x27;</text>
+<text x="550" y="43" class="combo shifted">&quot;</text>
 </g>
 </g>
 </g>
