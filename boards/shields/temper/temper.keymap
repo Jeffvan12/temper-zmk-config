@@ -50,6 +50,16 @@
             key-positions = <12 13>;
             bindings = <&sk LCTRL>;
         };
+        combo_right_side_enter {
+            timeout-ms = <20>;
+            key-positions = <26 27>;
+            bindings = <&sk ENTER>;
+        };
+        combo_left_side_tab {
+            timeout-ms = <20>;
+            key-positions = <2 23>;
+            bindings = <&sk TAB>;
+        };
     };
     conditional_layers {
         compatible = "zmk,conditional-layers";
