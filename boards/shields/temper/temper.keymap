@@ -43,7 +43,7 @@
         combo_left_side_ctrl {
             timeout-ms = <20>;
             key-positions = <2 3>;
-            bindings = <&sk LCTRL>;
+            bindings = <&mt LCTRL (&sk LCTRL)>;
         };
         combo_left_side_shift {
             timeout-ms = <20>;
