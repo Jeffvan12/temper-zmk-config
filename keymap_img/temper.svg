@@ -259,12 +259,10 @@ path {
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="595" y="138" width="28" height="26" class="combo"/>
 <text x="609" y="151" class="combo tap">ENTER</text>
-<text x="609" y="162" class="combo hold">sticky</text>
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="164" y="138" width="28" height="26" class="combo"/>
 <text x="178" y="151" class="combo tap">↹</text>
-<text x="178" y="162" class="combo hold">sticky</text>
 </g>
 </g>
 </g>
@@ -447,12 +445,10 @@ path {
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="595" y="138" width="28" height="26" class="combo"/>
 <text x="609" y="151" class="combo tap">ENTER</text>
-<text x="609" y="162" class="combo hold">sticky</text>
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="164" y="138" width="28" height="26" class="combo"/>
 <text x="178" y="151" class="combo tap">↹</text>
-<text x="178" y="162" class="combo hold">sticky</text>
 </g>
 </g>
 </g>
@@ -640,12 +636,10 @@ path {
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="595" y="138" width="28" height="26" class="combo"/>
 <text x="609" y="151" class="combo tap">ENTER</text>
-<text x="609" y="162" class="combo hold">sticky</text>
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="164" y="138" width="28" height="26" class="combo"/>
 <text x="178" y="151" class="combo tap">↹</text>
-<text x="178" y="162" class="combo hold">sticky</text>
 </g>
 </g>
 </g>
@@ -831,12 +825,10 @@ path {
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="595" y="138" width="28" height="26" class="combo"/>
 <text x="609" y="151" class="combo tap">ENTER</text>
-<text x="609" y="162" class="combo hold">sticky</text>
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="164" y="138" width="28" height="26" class="combo"/>
 <text x="178" y="151" class="combo tap">↹</text>
-<text x="178" y="162" class="combo hold">sticky</text>
 </g>
 </g>
 </g>
@@ -1034,12 +1026,10 @@ path {
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="595" y="138" width="28" height="26" class="combo"/>
 <text x="609" y="151" class="combo tap">ENTER</text>
-<text x="609" y="162" class="combo hold">sticky</text>
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="164" y="138" width="28" height="26" class="combo"/>
 <text x="178" y="151" class="combo tap">↹</text>
-<text x="178" y="162" class="combo hold">sticky</text>
 </g>
 </g>
 </g>
