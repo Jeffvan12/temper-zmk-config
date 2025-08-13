@@ -53,12 +53,12 @@
         combo_right_side_enter {
             timeout-ms = <20>;
             key-positions = <26 27>;
-            bindings = <&sk ENTER>;
+            bindings = <&kp ENTER>;
         };
         combo_left_side_tab {
             timeout-ms = <20>;
             key-positions = <22 23>;
-            bindings = <&sk TAB>;
+            bindings = <&kp TAB>;
         };
     };
     conditional_layers {
