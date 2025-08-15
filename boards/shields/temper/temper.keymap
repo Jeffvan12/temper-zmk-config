@@ -21,49 +21,54 @@
     combos {
         compatible = "zmk,combos";
         combo_quote {
-            timeout-ms = <20>;
+            timeout-ms = <30>;
             key-positions = <5 6>;
             bindings = <&kp SINGLE_QUOTE>;
         };
         combo_esc {
-            timeout-ms = <20>;
+            timeout-ms = <30>;
             key-positions = <15 16>;
             bindings = <&kp ESCAPE>;
         };
         combo_right_side_meta {
-            timeout-ms = <20>;
+            timeout-ms = <30>;
             key-positions = <16 17>;
             bindings = <&sk LMETA>;
         };
         combo_right_side_ctrl {
-            timeout-ms = <20>;
+            timeout-ms = <30>;
             key-positions = <6 7>;
             bindings = <&sk LCTRL>;
         };
         combo_left_side_ctrl {
-            timeout-ms = <20>;
+            timeout-ms = <30>;
             key-positions = <2 3>;
             bindings = <&sk LCTRL>;
         };
         combo_left_side_shift {
-            timeout-ms = <20>;
+            timeout-ms = <30>;
             key-positions = <12 13>;
-            bindings = <&sk LCTRL>;
+            bindings = <&sk LSHIFT>;
         };
         combo_right_side_enter {
-            timeout-ms = <20>;
+            timeout-ms = <30>;
             key-positions = <26 27>;
             bindings = <&kp ENTER>;
         };
         combo_left_side_tab {
-            timeout-ms = <20>;
+            timeout-ms = <30>;
             key-positions = <22 23>;
             bindings = <&kp TAB>;
         };
         combo_right_capslock {
-            timeout-ms = <20>;
+            timeout-ms = <30>;
             key-positions = <1 2>;
             bindings = <&kp CAPSLOCK>;
+        };
+        combo_right_alt {
+            timeout-ms = <30>;
+            key-positions = <12 14>;
+            bindings = <&sk RALT>;
         };
     };
     conditional_layers {
@@ -158,7 +163,7 @@
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
     &kp EXCLAMATION  &kp AT       &kp HASH      &kp DOLLAR     &kp PRCNT          &kp CARET       &kp AMPS        &kp STAR        &kp N9      &kp MINUS
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &kp LALT      &kp LCTRL      &kp LSHIFT      &kp LPAR      &kp RPAR         &kp UNDER       &kp N4        &kp N5        &kp N6      &kp PLUS
+      &kp LSHIFT      &kp LCTRL      &kp LPAR      &kp RPAR      &kp LALT         &kp UNDER       &kp N4        &kp N5        &kp N6      &kp PLUS
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
       &amps_morph     &kp LT       &kp LBKT      &kp RBKT       &kp GT          &slh_morph      &kp N1        &kp N2        &kp N3      &kp EQUAL
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
@@ -172,7 +177,7 @@
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
       &kp N7        &kp N5        &kp N3       &kp N1        &kp N9             &kp N8       &kp N0       &kp N2        &kp N4       &kp N6
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &sk LSHFT     &sk LCTRL      &sk LALT      &sk LGUI       ______           &kp LEFT      &kp LEFT       &kp DOWN      &kp UP       &kp RIGHT
+      &sk LSHFT     &sk LCTRL      &kp MINUS      &kp PLUS       ______           ______      &kp LEFT       &kp DOWN      &kp UP       &kp RIGHT
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
         ______        ______        ______        ______        ______            ______        &kp HOME       &kp END        ______        ______
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
