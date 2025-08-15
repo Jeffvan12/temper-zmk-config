@@ -76,7 +76,7 @@ layers:
     - '*'
     - '9'
     - {t: '-', s: _}
-  - [⎇, ⌃, LSHIFT, (, ), _, '4', '5', '6', +]
+  - [LSHIFT, ⌃, (, ), ⎇, _, '4', '5', '6', +]
   - - {t: '&', s: '|'}
     - <
     - {t: '[', s: '{'}
@@ -97,10 +97,10 @@ layers:
   - ['7', '5', '3', '1', '9', '8', '0', '2', '4', '6']
   - - {t: ⇧, h: sticky}
     - {t: ⌃, h: sticky}
-    - {t: ⎇, h: sticky}
-    - {t: ⌘, h: sticky}
+    - {t: '-', s: _}
+    - +
     - {t: ▽, type: trans}
-    - ←
+    - {t: ▽, type: trans}
     - ←
     - ↓
     - ↑
@@ -170,10 +170,12 @@ combos:
 - p: [2, 3]
   k: {t: ⌃, h: sticky}
 - p: [12, 13]
-  k: {t: ⌃, h: sticky}
+  k: {t: LSHIFT, h: sticky}
 - p: [26, 27]
   k: ENTER
 - p: [22, 23]
   k: ↹
 - p: [1, 2]
   k: CAPSLOCK
+- p: [12, 14]
+  k: {t: ⎇, h: sticky}
