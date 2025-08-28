@@ -74,32 +74,41 @@ layers:
     - ^
     - '&'
     - '*'
-    - '9'
-    - {t: '-', s: _}
-  - [LSHIFT, ⌃, (, ), ⎇, _, '4', '5', '6', +]
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - LSHIFT
+    - ⌃
+    - (
+    - )
+    - ⎇
+    - {t: ▽, type: trans}
+    - '{'
+    - '}'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
   - - {t: '&', s: '|'}
     - <
     - {t: '[', s: '{'}
     - {t: ']', s: '}'}
     - '>'
     - {t: /, s: \}
-    - '1'
-    - '2'
-    - '3'
-    - {t: '=', s: +}
+    - '|'
+    - _
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
-    - '0'
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   nav:
   - ['7', '5', '3', '1', '9', '8', '0', '2', '4', '6']
-  - - {t: ⇧, h: sticky}
+  - - {t: '-', s: _}
     - {t: ⌃, h: sticky}
-    - {t: '-', s: _}
+    - {t: ⇧, h: sticky}
     - +
-    - {t: ▽, type: trans}
+    - {t: '=', s: +}
     - {t: ▽, type: trans}
     - ←
     - ↓
@@ -110,7 +119,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - DELETE
     - HOME
     - END
     - {t: ▽, type: trans}
