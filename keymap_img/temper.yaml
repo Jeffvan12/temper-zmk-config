@@ -119,11 +119,17 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - MUTE
+    - 'VOL
+
+      MUTE'
     - HOME
     - END
-    - VOLUME DOWN
-    - VOLUME UP
+    - 'VOL
+
+      DOWN'
+    - 'VOL
+
+      UP'
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
