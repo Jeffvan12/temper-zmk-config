@@ -65,7 +65,7 @@
         combo_left_side_escape {
             timeout-ms = <COMBO_TIMEOUT>;
             key-positions = <13 14>;
-            bindings = <&sk LSHIFT>;
+            bindings = <&sk ESCAPE>;
         };
         combo_right_side_enter {
             timeout-ms = <COMBO_TIMEOUT>;
