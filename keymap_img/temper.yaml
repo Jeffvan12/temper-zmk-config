@@ -185,7 +185,7 @@ combos:
 - p: [12, 13]
   k: {t: LSHIFT, h: sticky}
 - p: [13, 14]
-  k: {t: LSHIFT, h: sticky}
+  k: {t: ⎋, h: sticky}
 - p: [26, 27]
   k: ENTER
 - p: [22, 23]
