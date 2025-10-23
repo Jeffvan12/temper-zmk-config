@@ -52,16 +52,21 @@
             key-positions = <6 7>;
             bindings = <&sk LCTRL>;
         };
-        combo_left_side_ctrl {
-            timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <2 3>;
-            bindings = <&sk LCTRL>;
-        };
+        //combo_left_side_ctrl {
+          //  timeout-ms = <COMBO_TIMEOUT>;
+           // key-positions = <2 3>;
+            //bindings = <&sk LCTRL>;
+        //};
         combo_left_side_shift {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <12 13>;
+            key-positions = <2 3>;
             bindings = <&sk LSHIFT>;
         };
+        //combo_left_side_shift {
+          //  timeout-ms = <COMBO_TIMEOUT>;
+           // key-positions = <12 13>;
+           // bindings = <&sk LSHIFT>;
+        //};
         combo_left_side_escape {
             timeout-ms = <COMBO_TIMEOUT>;
             key-positions = <13 14>;
@@ -180,9 +185,9 @@
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
     &kp EXCLAMATION  &kp AT       &kp HASH      &kp DOLLAR     &kp PRCNT          &kp CARET       &kp AMPS        &kp STAR      ______     ______
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &kp LSHIFT      &kp LCTRL      &kp LPAR      &kp RPAR      &kp LALT        ______     &kp LBRC      &kp RBRC       ______     ______
+      &kp LSHIFT      &kp LCTRL      &kp LPAR      &kp RPAR      &kp LALT        ______     &kp LBRC      &kp RBRC       &kp GRAVE     ______
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &amps_morph     &kp LT       &kp LBKT      &kp RBKT       &kp GT          &slh_morph      &kp PIPE       &kp UNDER        ______      ______
+      &amps_morph     &kp LT       &kp LBKT      &kp RBKT       &kp GT          &slh_morph      &kp PIPE       &kp UNDER        &kp TILDE      ______
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
                                     ______        ______        ______            ______        ______        ______
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
