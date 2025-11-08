@@ -82,10 +82,12 @@
             key-positions = <22 23>;
             bindings = <&kp TAB>;
         };
-        combo_right_capslock {
+        combo_left_capslock {
             timeout-ms = <COMBO_TIMEOUT>;
             key-positions = <1 2>;
-            bindings = <&kp CAPSLOCK>;
+          //  bindings = <&kp CAPSLOCK>;
+            bindings = <&caps_word>;
+
         };
         combo_right_alt {
             timeout-ms = <COMBO_TIMEOUT>;
@@ -201,7 +203,7 @@
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
       &kp LSHIFT     &kp LCTRL      &kp MINUS      &kp PLUS       &kp EQUAL           ______      &kp LEFT       &kp DOWN      &kp UP       &kp RIGHT
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-        &kp LALT        ______        ______        ______      &kp INSERT            &mute_mic        &kp HOME       &kp END     &kp C_VOLUME_DOWN        &kp C_VOLUME_UP
+        &kp LALT    ______         &kp LMETA        ______      &kp INSERT            &mute_mic        &kp HOME       &kp END     &kp C_VOLUME_DOWN        &kp C_VOLUME_UP
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
                                     ______        ______        ______            ______        ______        ______
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
