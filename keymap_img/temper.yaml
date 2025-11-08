@@ -86,7 +86,7 @@ layers:
     - '}'
     - {t: '`', s: '~'}
     - {t: ▽, type: trans}
-  - - {t: '&', s: '|'}
+  - - ⎇
     - <
     - {t: '[', s: '{'}
     - {t: ']', s: '}'}
@@ -114,7 +114,7 @@ layers:
     - ↓
     - ↑
     - →
-  - - {t: ▽, type: trans}
+  - - ⎇
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -135,7 +135,7 @@ layers:
     - {type: held}
     - {t: ▽, type: trans}
   fun:
-  - - {t: game, h: toggle}
+  - - {t: ▽, type: trans}
     - MUTE
     - VOL DN
     - VOL UP
